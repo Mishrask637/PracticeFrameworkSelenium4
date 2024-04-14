@@ -1,5 +1,3 @@
-{
-	
 	agent: any
 
 	environment {
@@ -27,4 +25,3 @@
 			}
 		}
 	}
-}
