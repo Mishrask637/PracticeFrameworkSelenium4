@@ -29,7 +29,7 @@ stages{
                 try{
                     bat """
                     echo 'Entered Into Build Phase'
-                    mvn build
+                    mvn clean
                     echo 'Build Success'
                     """
                     currentBuild.result = 'SUCCESS'
