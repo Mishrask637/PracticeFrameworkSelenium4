@@ -27,7 +27,7 @@ stages{
         steps{
             script{
                 try{
-                    sh """
+                    bat """
                     echo 'Entered Into Build Phase'
                     mvn build
                     echo 'Build Success'
@@ -48,7 +48,7 @@ stages{
         steps{
             script{
                     try{
-                        sh """
+                        bat """
                         echo 'Entered Into Test Phase'
                         mvn test
                         echo 'Test Success'
